@@ -1,0 +1,71 @@
+.center-text {
+  text-align: center;
+}
+
+.img-responsive {
+   display: block;
+   margin: 0 auto;
+}
+
+/*body div{
+  border: solid;
+}*/
+
+@media (min-height: 724px) and (min-width: 1000px) {
+  body {
+    background-image: url(http://www.clker.com/cliparts/W/X/u/B/Z/S/red-line-with-transparent-background.svg);
+    background-position: -20% -30%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+
+.intro {
+  /*background-color: white;*/
+  /*margin-left: 400px;*/
+}
+
+.sub-intro {
+  background-color: white;
+}
+
+.bottom-aligned-text {
+    margin-top: 15px;
+  }
+
+.right-side {
+  border-right: solid;
+}
+
+@media (max-width: 996px) {
+  #responsive-center {
+    text-align: center;
+  }
+}
+
+.mid-bar {
+  background-color: #f2f2f2;
+}
+
+.mid-text {
+  border-top: solid;
+  border-color: #f2f2f2;
+  background-color: white;
+}
+
+.mid-center {
+  background-color: black;
+  color: #f2f2f2;
+  font-size: 40px;
+}
+
+.space {
+  margin-top: 150px
+  text: 10px;
+  margin-bottom: 10px;
+}
+
+.v-align {
+  vertical-align: top;
+  margin-top: -5px;
+}
