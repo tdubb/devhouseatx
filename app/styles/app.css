@@ -17,16 +17,18 @@
     background-position: -20% -30%;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-color: white;
   }
 }
 
-.intro {
-  /*background-color: white;*/
-  /*margin-left: 400px;*/
-}
+/*.intro {
+  background-color: white;
+  margin-left: 400px;
+  margin-right: 400px;
+}*/
 
 .sub-intro {
-  background-color: white;
+  background-color: #FAFAFA;
 }
 
 .bottom-aligned-text {
@@ -50,7 +52,7 @@
 .mid-text {
   border-top: solid;
   border-color: #f2f2f2;
-  background-color: white;
+  background-color: #FAFAFA;
 }
 
 .mid-center {
