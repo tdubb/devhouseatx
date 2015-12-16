@@ -2,13 +2,22 @@
   <div class="col-md-2">
     <h3>Learn to Code:</h3>
   <div class="space">
-    {{link-to "What You'll Learn" "code.curriculum" class="btn btn-sm btn-primary"}}
+    {{#link-to "code.curriculum" class="topic-link btn btn-sm btn-primary"}}
+    What You'll Learn
+    <span class="pointer glyphicon glyphicon-chevron-right"></span>
+    {{/link-to}}
   </div>
   <div class="space">
-    {{link-to "How Long is the Program" "code.duration" class="btn btn-sm btn-primary"}}
+    {{#link-to "code.duration" class="topic-link btn btn-sm btn-primary"}}
+    Program Length
+    <span class="pointer glyphicon glyphicon-chevron-right"></span>
+    {{/link-to}}
   </div>
   <div class="space">
-    {{link-to "Getting a Job" "code.jobs" class="btn btn-sm btn-primary"}}
+    {{#link-to "code.jobs" class="topic-link btn btn-sm btn-primary"}}
+    Getting a Job
+    <span class="pointer glyphicon glyphicon-chevron-right"></span>
+    {{/link-to}}
   </div>
   </div>
   <div class="col-md-10 mid-bar">

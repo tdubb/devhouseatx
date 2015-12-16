@@ -2,16 +2,28 @@
   <div class="col-md-2">
     <h3>Rent a Room:</h3>
   <div class="space">
-    {{link-to "Me" "rent.me" class="btn btn-sm btn-primary"}}
+    {{#link-to "rent.me" class="topic-link btn btn-sm btn-primary"}}
+      Me
+    <span class="pointer glyphicon glyphicon-chevron-right"></span>
+    {{/link-to}}
   </div>
   <div class="space">
-    {{link-to "You" "rent.you" class="btn btn-sm btn-primary"}}
+    {{#link-to "rent.you" class="topic-link btn btn-sm btn-primary"}}
+      You
+    <span class="pointer glyphicon glyphicon-chevron-right"></span>
+    {{/link-to}}
   </div>
   <div class="space">
-    {{link-to "The Economics" "rent.cost" class="btn btn-sm btn-primary"}}
+    {{#link-to "rent.cost" class="topic-link btn btn-sm btn-primary"}}
+      The Economics
+    <span class="pointer glyphicon glyphicon-chevron-right"></span>
+    {{/link-to}}
   </div>
   <div class="space">
-    {{link-to "The House" "rent.house" class="btn btn-sm btn-primary"}}
+    {{#link-to  "rent.house" class="topic-link btn btn-sm btn-primary"}}
+      The House
+    <span class="pointer glyphicon glyphicon-chevron-right"></span>
+    {{/link-to}}
   </div>
   </div>
   <div class="col-md-10 mid-bar">

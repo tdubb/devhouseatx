@@ -71,3 +71,12 @@
   vertical-align: top;
   margin-top: -5px;
 }
+
+.topic-link .pointer {
+  float: right;
+  display: none;
+}
+
+.topic-link.active .pointer {
+  display: block;
+}
