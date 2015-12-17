@@ -58,7 +58,7 @@
   font-size: 40px;
 }
 
-.box-shadow .mid-center, .mid-bar, .mid-text, .sub-intro, .intro, .email-message{
+.box-shadow .mid-center, .mid-bar, .mid-text, .sub-intro, .intro, .email-message, .inquiries {
   box-shadow: 12px 5px 15px -4px lightgrey, -12px 0 8px -4px lightgrey;
 }
 
@@ -95,4 +95,9 @@
 .email {
   width: 200px;
   height: 25px;
+}
+
+.inquiries {
+  width: 500px;
+  margin: auto;
 }
