@@ -17,15 +17,8 @@
     background-position: -20% -30%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: white;
   }
 }
-
-/*.intro {
-  background-color: white;
-  margin-left: 400px;
-  margin-right: 400px;
-}*/
 
 .sub-intro {
   background-color: #FAFAFA;
@@ -49,6 +42,10 @@
   background-color: #f2f2f2;
 }
 
+.detail {
+  background-color: #f2f2f2;
+}
+
 .mid-text {
   border-top: solid;
   border-color: #f2f2f2;
@@ -59,6 +56,10 @@
   background-color: black;
   color: #f2f2f2;
   font-size: 40px;
+}
+
+.box-shadow .mid-center, .mid-bar, .mid-text, .sub-intro, .intro {
+  box-shadow: 12px 5px 15px -4px lightgrey, -12px 0 8px -4px lightgrey;
 }
 
 .space {
@@ -79,4 +80,9 @@
 
 .topic-link.active .pointer {
   display: block;
+}
+
+#pitch {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
