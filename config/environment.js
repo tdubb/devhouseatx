@@ -19,6 +19,12 @@ module.exports = function(environment) {
     }
   };
 
+  ENV.contentSecurityPolicy = {
+    'connect-src': "'self' https://mandrillapp.com/api/1.0/messages/send.json",
+    'style-src': "'self'",
+    'script-src': "'self'",
+    'img-src': "'self'"
+  }
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;

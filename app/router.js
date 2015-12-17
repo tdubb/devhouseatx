@@ -12,9 +12,6 @@ Router.map(function() {
     this.route('jobs');
     this.route('offering');
   });
-  // this.route('rent');
-  this.route('austin');
-  this.route('faq');
   this.route('cost');
   this.route('rent', function() {
     this.route('you', {
@@ -26,6 +23,7 @@ Router.map(function() {
     this.route('house');
     this.route('offering');
   });
+  this.route('email');
 });
 
 export default Router;

@@ -58,7 +58,7 @@
   font-size: 40px;
 }
 
-.box-shadow .mid-center, .mid-bar, .mid-text, .sub-intro, .intro {
+.box-shadow .mid-center, .mid-bar, .mid-text, .sub-intro, .intro, .email-message{
   box-shadow: 12px 5px 15px -4px lightgrey, -12px 0 8px -4px lightgrey;
 }
 
@@ -85,4 +85,14 @@
 #pitch {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.email-message {
+  width: 500px;
+  height: 250px;
+}
+
+.email {
+  width: 200px;
+  height: 25px;
 }
