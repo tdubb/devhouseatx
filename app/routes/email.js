@@ -34,7 +34,7 @@ export default Ember.Route.extend({
           }
         }
        }).done(function(response) {
-         alert("Email Sent! " + response[0].status);
+         alert("Email Delivery Status! " + response[0].status);
          console.log(response); // if you're into that sorta thing
        });
       this.get("controller").set("newEmail", "");
