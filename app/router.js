@@ -11,6 +11,7 @@ Router.map(function() {
     this.route('duration');
     this.route('jobs');
     this.route('offering');
+    this.route('schedule');
   });
   this.route('cost');
   this.route('rent', function() {
